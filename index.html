@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Just Cheesecakes Deliveries</title>
+    <meta
+      name="description"
+      content="Small-batch cheesecakes for local delivery. Browse flavors, request a delivery date, and send an order inquiry."
+    >
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="assets/cheesecake-hero.jpg" as="image">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Just Cheesecakes Deliveries home">
+        <span class="brand-mark">JC</span>
+        <span>
+          <strong>Just Cheesecakes</strong>
+          <small>Deliveries</small>
+        </span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#menu">Menu</a>
+        <a href="#delivery">Delivery</a>
+        <a href="#custom">Custom</a>
+        <a href="#order">Order</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <img src="assets/cheesecake-hero.jpg" alt="A slice of classic cheesecake with berries on a dark plate">
+        <div class="hero-overlay"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">Small-batch cheesecake, delivered locally</p>
+          <h1 id="hero-title">Just Cheesecakes Deliveries</h1>
+          <p>
+            Creamy, made-to-order cheesecakes for birthdays, holidays, office treats,
+            and because Wednesday deserves dessert too.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#order">Start an order</a>
+            <a class="button secondary" href="#menu">See flavors</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="quick-info" aria-label="Ordering highlights">
+        <div>
+          <span>Lead time</span>
+          <strong>48 hours</strong>
+        </div>
+        <div>
+          <span>Delivery</span>
+          <strong>Local drop-off</strong>
+        </div>
+        <div>
+          <span>Sizes</span>
+          <strong>Mini, 6", 9"</strong>
+        </div>
+      </section>
+
+      <section class="section intro">
+        <div>
+          <p class="eyebrow">Back by popular demand</p>
+          <h2>Classic comfort, polished for gifting.</h2>
+        </div>
+        <p>
+          Every order is baked with a creamy center, a tender crust, and a finish
+          that feels special without getting fussy. Choose a signature flavor or
+          send a custom idea for the next celebration.
+        </p>
+      </section>
+
+      <section class="section menu-section" id="menu" aria-labelledby="menu-title">
+        <div class="section-heading">
+          <p class="eyebrow">Menu</p>
+          <h2 id="menu-title">Signature cheesecakes</h2>
+        </div>
+        <div class="menu-grid">
+          <article class="menu-item" data-flavor="Classic Vanilla Bean">
+            <div>
+              <p class="tag">Best seller</p>
+              <h3>Classic Vanilla Bean</h3>
+              <p>Silky filling, graham crust, vanilla-forward finish.</p>
+            </div>
+            <strong>from $28</strong>
+          </article>
+          <article class="menu-item" data-flavor="Strawberry Swirl">
+            <div>
+              <p class="tag">Bright</p>
+              <h3>Strawberry Swirl</h3>
+              <p>Fresh strawberry ribbon with a glossy berry topping.</p>
+            </div>
+            <strong>from $32</strong>
+          </article>
+          <article class="menu-item" data-flavor="Chocolate Ganache">
+            <div>
+              <p class="tag">Rich</p>
+              <h3>Chocolate Ganache</h3>
+              <p>Cocoa crust, creamy chocolate center, smooth ganache cap.</p>
+            </div>
+            <strong>from $34</strong>
+          </article>
+          <article class="menu-item" data-flavor="Seasonal Special">
+            <div>
+              <p class="tag">Rotating</p>
+              <h3>Seasonal Special</h3>
+              <p>A limited flavor based on the week, holiday, or request.</p>
+            </div>
+            <strong>market</strong>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split" id="delivery" aria-labelledby="delivery-title">
+        <div>
+          <p class="eyebrow">Delivery</p>
+          <h2 id="delivery-title">Built around local drop-offs.</h2>
+          <p>
+            Delivery is scheduled in advance so each cheesecake arrives chilled,
+            settled, and ready to serve. Send a ZIP code with your request and we
+            will confirm availability before the order is finalized.
+          </p>
+        </div>
+        <div class="delivery-list" aria-label="Delivery process">
+          <div>
+            <span>01</span>
+            <p>Choose a flavor and size.</p>
+          </div>
+          <div>
+            <span>02</span>
+            <p>Request a delivery date and address.</p>
+          </div>
+          <div>
+            <span>03</span>
+            <p>Confirm price, timing, and payment details.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section custom-section" id="custom" aria-labelledby="custom-title">
+        <div class="section-heading">
+          <p class="eyebrow">Custom orders</p>
+          <h2 id="custom-title">A flexible base for celebrations.</h2>
+        </div>
+        <div class="custom-options">
+          <div>
+            <h3>Occasions</h3>
+            <p>Birthdays, graduations, work parties, holidays, and dinner parties.</p>
+          </div>
+          <div>
+            <h3>Finishes</h3>
+            <p>Fruit toppings, chocolate drizzle, cookie crusts, and simple messages.</p>
+          </div>
+          <div>
+            <h3>Batch orders</h3>
+            <p>Mini cheesecakes and assorted boxes for events or repeat deliveries.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section order-section" id="order" aria-labelledby="order-title">
+        <div class="order-copy">
+          <p class="eyebrow">Order inquiry</p>
+          <h2 id="order-title">Tell us what sounds good.</h2>
+          <p>
+            Share the flavor, size, and delivery date you have in mind. We will
+            confirm timing, delivery details, and the final total before baking.
+          </p>
+        </div>
+        <form class="order-form" id="order-form">
+          <label>
+            Name
+            <input name="name" autocomplete="name" required>
+          </label>
+          <label>
+            Email
+            <input name="email" type="email" autocomplete="email" required>
+          </label>
+          <label>
+            Flavor
+            <select name="flavor" required>
+              <option value="">Select a flavor</option>
+              <option>Classic Vanilla Bean</option>
+              <option>Strawberry Swirl</option>
+              <option>Chocolate Ganache</option>
+              <option>Seasonal Special</option>
+              <option>Custom request</option>
+            </select>
+          </label>
+          <label>
+            Size
+            <select name="size" required>
+              <option value="">Select a size</option>
+              <option>Mini box</option>
+              <option>6-inch cheesecake</option>
+              <option>9-inch cheesecake</option>
+              <option>Not sure yet</option>
+            </select>
+          </label>
+          <label>
+            Preferred delivery date
+            <input name="date" type="date">
+          </label>
+          <label>
+            Delivery ZIP code
+            <input name="zip" inputmode="numeric" autocomplete="postal-code">
+          </label>
+          <label class="full">
+            Notes
+            <textarea name="notes" rows="4" placeholder="Occasion, allergies, delivery window, or custom flavor ideas"></textarea>
+          </label>
+          <button class="button primary full" type="submit">Send inquiry</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Just Cheesecakes Deliveries</p>
+      <a href="mailto:orders@example.com">orders@example.com</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
