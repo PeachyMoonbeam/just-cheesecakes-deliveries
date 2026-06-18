@@ -55,9 +55,10 @@ a {
 
 .brand-mark {
   display: block;
-  width: 56px;
-  height: 56px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
+  object-fit: cover;
   box-shadow: 0 6px 18px rgba(36, 26, 22, 0.12);
 }
 

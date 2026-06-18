@@ -8,8 +8,8 @@ Starter static site for a local cheesecake delivery business.
 - `styles.css` contains the responsive visual design.
 - `script.js` fills the current year, selects flavors from the menu cards, and opens an email inquiry.
 - `assets/cheesecake-hero.jpg` is a temporary Unsplash photo. Replace it with a real business photo when available.
-- `assets/logo-badge.svg` is the primary badge logo.
-- `assets/favicon.svg` is the browser icon based on the logo.
+- `assets/original-logo.png` is the temporary primary logo and favicon.
+- `assets/logo-badge.svg` is a draft SVG logo concept to revisit later.
 
 ## Local preview
 
