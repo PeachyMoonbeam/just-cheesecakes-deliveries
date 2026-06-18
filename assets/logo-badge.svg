@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" role="img" aria-labelledby="title desc">
+  <title id="title">Just Cheesecakes Deliveries badge logo</title>
+  <desc id="desc">A round line art badge with a cheesecake slice, strawberries, and a chocolate bar.</desc>
+  <defs>
+    <path id="top-arc" d="M145 360a215 215 0 0 1 430 0"/>
+    <path id="bottom-arc" d="M145 362a215 215 0 0 0 430 0"/>
+  </defs>
+  <rect width="720" height="720" fill="#fff8ed"/>
+  <circle cx="360" cy="360" r="300" fill="#fffdf8" stroke="#3a1d2b" stroke-width="18"/>
+  <circle cx="360" cy="360" r="262" fill="none" stroke="#c6842f" stroke-width="5"/>
+
+  <text fill="#3a1d2b" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="700" letter-spacing="3">
+    <textPath href="#top-arc" startOffset="50%" text-anchor="middle">JUST CHEESECAKES</textPath>
+  </text>
+  <text fill="#3a1d2b" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="800" letter-spacing="7">
+    <textPath href="#bottom-arc" startOffset="50%" text-anchor="middle">DELIVERIES</textPath>
+  </text>
+
+  <g stroke="#3a1d2b" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M176 398c48-54 115-88 190-88 64 0 123 25 167 65" fill="none" stroke-width="10"/>
+    <path d="M181 410 526 382c16-1 24 18 12 29L386 548c-10 9-24 12-37 8l-170-52c-19-6-25-29-12-43l14-51Z" fill="#fff8ed" stroke-width="11"/>
+    <path d="M198 411 523 385 381 481c-11 8-25 10-38 6l-163-49" fill="#f6d58d" stroke-width="9"/>
+    <path d="M181 452 346 505c16 5 33 1 46-10l129-110" fill="none" stroke-width="8"/>
+    <path d="M234 429c14 13 36 13 50 0m26-2c15 14 39 13 53-2m28-2c15 13 38 12 51-3" fill="none" stroke="#c6842f" stroke-width="7"/>
+    <path d="M211 472c34 4 68 12 101 24m35 13c12 4 24 7 36 9" fill="none" stroke="#c6842f" stroke-width="6"/>
+  </g>
+
+  <g stroke="#3a1d2b" stroke-linecap="round" stroke-linejoin="round" stroke-width="7">
+    <path d="M205 268c20-27 61-18 68 16 6 28-18 56-47 53-31-4-41-44-21-69Z" fill="#d84a4a"/>
+    <path d="M218 260c11-16 32-15 45 0" fill="#5f7d65"/>
+    <path d="M226 245c9 9 12 20 10 32m23-30c-10 9-15 19-15 31" fill="none"/>
+    <path d="M217 292h0m24-10h0m9 27h0" fill="none"/>
+  </g>
+
+  <g stroke="#3a1d2b" stroke-linecap="round" stroke-linejoin="round" stroke-width="7">
+    <path d="M497 492 588 456l24 61-91 36Z" fill="#6f3f2a"/>
+    <path d="M520 482 545 542m19-75 25 60m-77-11 91-36" fill="none" stroke="#fff8ed" stroke-width="5"/>
+  </g>
+
+  <g fill="#9f1f42">
+    <circle cx="150" cy="359" r="7"/>
+    <circle cx="570" cy="359" r="7"/>
+    <circle cx="360" cy="102" r="6"/>
+    <circle cx="360" cy="618" r="6"/>
+  </g>
+</svg>

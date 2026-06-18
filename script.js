@@ -1,4 +1,4 @@
-const orderEmail = "orders@example.com";
+const orderEmail = "info@justcheesecakesdeliveries.com";
 
 const form = document.querySelector("#order-form");
 const status = document.querySelector("#form-status");
